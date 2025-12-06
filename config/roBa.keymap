@@ -80,10 +80,10 @@
 
         default_layer {
             bindings = <
-&kp Q      &kp W           &kp E         &kp R         &mt LCTRL T                                 &msc SCRL_UP     &kp U            &kp LG(TAB)  &kp O     &kp P
-&kp A      &kp S           &kp D         &kp F         &kp G        &trans          &kp BACKSPACE  &msc SCRL_DOWN   &kp LA(UP)       &mkp MB1     &mkp MB2  &kp COMMA
-&kp Z      &kp X           &kp C         &kp V         &kp B        &kp TILDE       &kp SLASH      &msc SCRL_LEFT   &msc SCRL_RIGHT  &mkp MB3     &trans    &kp DOT
-&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kt LEFT_WIN  &lt 4 SPACE  &lt 3 CLCK      &kp ESC        &mt LCTRL ENTER                                          &kp DEL
+&kp Q      &kp W           &kp E         &kp R     &mt LCTRL T                                     &msc SCRL_UP     &kp U            &kp LG(TAB)  &kp O     &kp P
+&kp A      &kp S           &kp D         &kp F     &kp G        &trans              &kp BACKSPACE  &msc SCRL_DOWN   &kp LA(UP)       &mkp MB1     &mkp MB2  &kp COMMA
+&kp Z      &kp X           &kp C         &kp V     &kp B        &kp TILDE           &kp SLASH      &msc SCRL_LEFT   &msc SCRL_RIGHT  &mkp MB3     &trans    &kp DOT
+&kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kt CAPS  &lt 4 SPACE  &lt 3 LEFT_WIN      &kp ESC        &mt LCTRL ENTER                                          &kp DEL
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&kp ESCAPE      &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                            &kp F2     &kp F4                &kp UP                 &kp F7     &kp F8
-&none           &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS   &kp SLASH         &trans  &kp F5     &kp LEFT              &kp DOWN               &kp RIGHT  &trans
-&kp LEFT_SHIFT  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL  &kp ASTERISK      &trans  &kp COLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH   &trans
-&none           &kp KP_NUMBER_0  &kp DOT          &trans           &trans     &trans            &trans  &trans                                                             &trans
+&none           &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp MINUS                            &kp F2     &kp F4                &kp UP                 &kp F7     &kp F8
+&kp LEFT_SHIFT  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS   &kp SLASH         &trans  &kp F5     &kp LEFT              &kp DOWN               &kp RIGHT  &none
+&none           &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL  &kp ASTERISK      &none   &kp COLON  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp HASH   &none
+&none           &kp KP_NUMBER_0  &kp DOT          &none            &none      &trans            &trans  &trans                                                             &trans
             >;
 
             sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
