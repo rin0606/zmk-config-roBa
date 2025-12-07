@@ -90,10 +90,10 @@
 
         FUNCTION {
             bindings = <
-&kp Q   &kp W   &kp E   &kp R   &kp T                        &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
-&kp A   &kp S   &kp D   &kp F   &kp G   &trans      &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
-&kp Z   &kp X   &kp C   &kp V   &kp B   &trans      &trans   &trans  &trans  &trans  &trans  &kp F11
-&trans  &trans  &trans  &trans  &trans  &trans      &trans   &trans                          &kp F12
+&kp Q   &kp W   &kp E   &kp R   &kp T                           &kp F1  &kp F2  &kp F3  &kp F4  &kp F5
+&kp A   &kp S   &kp D   &kp F   &kp G   &trans         &kp F13  &kp F6  &kp F7  &kp F8  &kp F9  &kp F10
+&kp Z   &kp X   &kp C   &kp V   &kp B   &kp TILDE      &trans   &trans  &trans  &trans  &trans  &kp F11
+&trans  &trans  &trans  &trans  &trans  &trans         &trans   &trans                          &kp F12
             >;
         };
 
