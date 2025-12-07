@@ -86,7 +86,7 @@
 &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kt CAPS  &lt 3 SPACE  &lt 6 LEFT_WIN      &lt 4 ESC      &mt LEFT_SHIFT ENTER                         &kp DEL
             >;
 
-            sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
+            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         FUNCTION {
@@ -136,6 +136,8 @@
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
             >;
+
+            sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
         layer_6 {
