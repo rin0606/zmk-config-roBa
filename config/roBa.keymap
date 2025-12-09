@@ -109,10 +109,10 @@
 
         ARROW {
             bindings = <
-&none      &none      &none      &none      &none                    &kp LC(Y)       &trans  &trans  &trans  &kp LC(P)
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &none  &none      &none  &trans          &trans  &trans  &trans  &trans
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &none  &none      &none  &kp LC(N)       &trans  &trans  &trans  &trans
-&none      &none      &none      &none      &none  &none      &none  &kp LEFT_SHIFT                          &trans
+&kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                    &kp LC(Y)       &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
+&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)  &none      &none  &kp LC(H)       &kp LC(J)  &kp LC(K)  &kp LC(L)  &trans
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &none      &none  &kp LC(N)       &kp LC(M)  &trans     &trans     &trans
+&none      &none      &none      &none      &none      &none      &none  &kp LEFT_SHIFT                                   &trans
             >;
         };
 
