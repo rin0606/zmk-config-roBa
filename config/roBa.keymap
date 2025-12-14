@@ -102,17 +102,17 @@
             bindings = <
 &kp SLASH    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK                                 &kp F7  &kp F8                &kp UP                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET
 &kp MINUS    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS      &none          &kp UNDERSCORE  &kp F2  &kp LEFT              &kp DOWN               &kp RIGHT         &kp F5
-&kp DOLLAR   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &kp COLON      &kp HASH        &kp F4  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE
-&kp AT_SIGN  &kp KP_NUMBER_0  &kp DOT          &trans           &trans        &trans         &trans          &trans                                                                 &kp PERCENT
+&kp DOLLAR   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &kp COLON      &trans          &kp F4  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE
+&kp PERCENT  &kp KP_NUMBER_0  &kp DOT          &trans           &trans        &trans         &trans          &trans                                                                 &trans
             >;
         };
 
         ARROW {
             bindings = <
 &kp LC(Q)  &kp LC(W)  &kp LC(E)  &kp LC(R)  &kp LC(T)                    &kp LC(Y)       &kp LC(U)  &kp LC(I)  &kp LC(O)  &kp LC(P)
-&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)  &none      &none  &kp LC(H)       &kp LC(J)  &kp LC(K)  &kp LC(L)  &trans
-&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &none      &none  &kp LC(N)       &kp LC(M)  &trans     &trans     &trans
-&none      &none      &none      &none      &none      &none      &none  &kp LEFT_SHIFT                                   &trans
+&kp LC(A)  &kp LC(S)  &kp LC(D)  &kp LC(F)  &kp LC(G)  &none      &none  &kp LC(H)       &kp LC(J)  &kp LC(K)  &kp LC(L)  &none
+&kp LC(Z)  &kp LC(X)  &kp LC(C)  &kp LC(V)  &kp LC(B)  &none      &none  &kp LC(N)       &kp LC(M)  &none      &none      &none
+&none      &none      &none      &none      &none      &none      &none  &kp LEFT_SHIFT                                   &none
             >;
         };
 
