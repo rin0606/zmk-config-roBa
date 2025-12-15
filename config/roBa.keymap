@@ -53,6 +53,12 @@
             bindings = <&kp EQUAL>;
             key-positions = <24 25>;
         };
+
+        MB3 {
+            bindings = <&mkp MB3>;
+            key-positions = <19 20>;
+            layers = <0>;
+        };
     };
 
     macros {
