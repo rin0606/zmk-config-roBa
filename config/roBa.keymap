@@ -106,10 +106,10 @@
 
         NUM {
             bindings = <
-&kp SLASH    &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK                                 &kp F7  &kp F8                &kp UP                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp MINUS    &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS      &none          &kp UNDERSCORE  &kp F2  &kp LEFT              &kp DOWN               &kp RIGHT         &kp F5
-&kp DOLLAR   &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp EQUAL     &kp COLON      &trans          &kp F4  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE
-&kp PERCENT  &kp KP_NUMBER_0  &kp DOT          &trans           &trans        &trans         &trans          &trans                                                                 &trans
+&kp EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK                                  &kp F7  &kp F8                &kp UP                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS      &none           &kp UNDERSCORE  &kp F2  &kp LEFT              &kp DOWN               &kp RIGHT         &kp F5
+&kp MINUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_N0     &kp PERIOD      &trans          &kp F4  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE
+&none      &none            &none            &trans           &trans        &trans          &trans          &trans                                                                 &trans
             >;
         };
 
