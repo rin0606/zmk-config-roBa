@@ -64,7 +64,7 @@
 &trans     &trans          &kp LC(S)  &kp ENTER       &none                                              &kp LG(UP)      &kp LS(LG(RIGHT))  &kp LG(TAB)      &kp LCTRL         &kp LEFT_SHIFT
 &trans     &trans          &none      &kp LC(F4)      &trans          &trans                 &kp F2      &none           &msc SCRL_UP       &mkp MB1         &mkp MB2          &kp ENTER
 &trans     &trans          &kp LC(C)  &kp LC(V)       &trans          &lt 6 PRINTSCREEN      &kp CAPS    &msc SCRL_LEFT  &msc SCRL_DOWN     &msc SCRL_RIGHT  &kp LA(UP_ARROW)  &kp ESC
-&kp LCTRL  &kp LEFT_SHIFT  &trans     &lt 3 LEFT_GUI  &lt 1 LEFT_ALT  &lt 2 BACKSPACE        &kp DELETE  &kp SPACE                                                             &none
+&kp LCTRL  &kp LEFT_SHIFT  &none      &lt 3 LEFT_GUI  &lt 1 LEFT_ALT  &lt 2 BACKSPACE        &kp DELETE  &kp SPACE                                                             &none
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
