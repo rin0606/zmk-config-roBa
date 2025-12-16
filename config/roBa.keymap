@@ -54,7 +54,7 @@
         default_layer {
             bindings = <
 &none   &trans  &kp LC(S)  &kp ENTER       &none                                                 &kp LG(UP)      &kp LS(LG(RIGHT))  &kp LG(TAB)      &mt LCTRL LA(UP)  &kp LEFT_SHIFT
-&trans  &trans  &none      &kp LC(F4)      &trans          &trans                 &kp F2         &none           &msc SCRL_UP       &mkp MB1         &mkp MB2          &kp ENTER
+&trans  &trans  &none      &kp LC(F4)      &trans          &kp KP_NUMLOCK         &kp F2         &none           &msc SCRL_UP       &mkp MB1         &mkp MB2          &kp ENTER
 &trans  &trans  &kp LC(C)  &kp LC(V)       &trans          &lt 6 PRINTSCREEN      &kp CAPS       &msc SCRL_LEFT  &msc SCRL_DOWN     &msc SCRL_RIGHT  &mkp MB3          &kp ESC
 &none   &trans  &none      &lt 3 LEFT_GUI  &lt 1 LEFT_ALT  &lt 2 DELETE           &kp BACKSPACE  &kp SPACE                                                             &none
             >;
@@ -73,10 +73,10 @@
 
         NUM {
             bindings = <
-&kp EQUAL       &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK                          &kp F7  &kp F8                &kp UP                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET
-&kp SLASH       &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS      &none           &trans  &kp F2  &kp LEFT              &kp DOWN               &kp RIGHT         &kp F5
-&kp MINUS       &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_N0     &kp PERIOD      &trans  &kp F4  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE
-&kt KP_NUMLOCK  &trans           &kp UNDER        &trans           &trans        &trans          &trans  &trans                                                                 &trans
+&kp EQUAL  &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp ASTERISK                          &kp F7  &kp F8                &kp UP                 &kp LEFT_BRACKET  &kp RIGHT_BRACKET
+&kp SLASH  &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp PLUS      &none           &trans  &kp F2  &kp LEFT              &kp DOWN               &kp RIGHT         &kp F5
+&kp MINUS  &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp KP_N0     &kp PERIOD      &trans  &kp F4  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp LEFT_BRACE    &kp RIGHT_BRACE
+&none      &trans           &kp UNDER        &trans           &trans        &trans          &trans  &trans                                                                 &trans
             >;
         };
 
