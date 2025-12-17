@@ -53,10 +53,10 @@
 
         default_layer {
             bindings = <
-&kp CAPS   &trans      &kp LC(S)     &kp ENTER       &none                                                 &trans     &msc SCRL_UP  &msc SCRL_DOWN  &kp LCTRL  &kp LG(TAB)
-&trans     &trans      &none         &kp LC(F4)      &none           &kp KP_NUMLOCK         &kp F2         &kp ENTER  &mkp MB1      &mkp MB2        &mkp MB3   &kp LS(LG(RIGHT))
-&trans     &trans      &kp LC(C)     &kp LC(V)       &kp LC(LA(V))   &lt 6 PRINTSCREEN      &trans         &trans     &kp ESC       &kp LA(UP)      &none      &kp LG(UP)
-&kp LCTRL  &kp LSHIFT  &kp LEFT_WIN  &lt 3 LEFT_GUI  &lt 1 LEFT_ALT  &lt 2 DELETE           &kp BACKSPACE  &kp SPACE                                           &none
+&kp CAPS   &trans      &kp LC(S)     &kp ENTER       &none                                                    &msc SCRL_UP          &none       &kp BACKSPACE  &kp LCTRL  &kp LG(LS(RIGHT))
+&trans     &trans      &none         &kp LC(F4)      &none           &kp KP_NUMLOCK         &kp F2            &msc SCRL_DOWN        &mkp MB1    &mkp MB2       &mkp MB3   &kp ENTER
+&trans     &trans      &kp LC(C)     &kp LC(V)       &kp LC(LA(V))   &lt 6 PRINTSCREEN      &trans            &kp ESC               &kp LA(UP)  &kp LG(TAB)    &none      &none
+&kp LCTRL  &kp LSHIFT  &kp LEFT_WIN  &lt 3 LEFT_GUI  &lt 1 LEFT_ALT  &lt 2 TAB              &mt LCTRL DELETE  &mt LEFT_SHIFT SPACE                                        &none
             >;
 
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
@@ -64,10 +64,10 @@
 
         FUNCTION {
             bindings = <
-&kp Q   &kp W   &kp E             &kp R        &kp T                           &kp Y   &kp U        &kp I             &kp O     &kp P
-&kp A   &kp S   &mt LEFT_SHIFT D  &mt LCTRL F  &kp G   &trans      &kp COMMA   &kp H   &mt LCTRL J  &mt LEFT_SHIFT K  &kp L     &kp MINUS
-&kp Z   &kp X   &kp C             &kp V        &kp B   &none       &kp PERIOD  &kp N   &kp M        &kp AT_SIGN       &kp HASH  &kp TILDE
-&trans  &trans  &trans            &trans       &trans  &trans      &trans      &trans                                           &kp QUESTION
+&kp Q   &kp W   &kp E             &kp R        &kp T                                    &kp Y   &kp U        &kp I             &kp O     &kp P
+&kp A   &kp S   &mt LEFT_SHIFT D  &mt LCTRL F  &kp G   &trans               &kp COMMA   &kp H   &mt LCTRL J  &mt LEFT_SHIFT K  &kp L     &kp MINUS
+&kp Z   &kp X   &kp C             &kp V        &kp B   &kp EXCLAMATION      &kp PERIOD  &kp N   &kp M        &kp AT_SIGN       &kp HASH  &kp TILDE
+&trans  &trans  &trans            &trans       &trans  &trans               &trans      &trans                                           &kp QUESTION
             >;
         };
 
