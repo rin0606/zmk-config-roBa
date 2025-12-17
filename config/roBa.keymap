@@ -54,7 +54,7 @@
         default_layer {
             bindings = <
 &kp CAPS   &trans      &kp LC(S)     &kp ENTER       &none                                                 &trans     &msc SCRL_UP  &msc SCRL_DOWN  &kp LCTRL  &kp LG(TAB)
-&trans     &trans      &none         &kp LC(F4)      &trans          &kp KP_NUMLOCK         &kp F2         &kp ENTER  &mkp MB1      &mkp MB2        &mkp MB3   &kp LS(LG(RIGHT))
+&trans     &trans      &none         &kp LC(F4)      &none           &kp KP_NUMLOCK         &kp F2         &kp ENTER  &mkp MB1      &mkp MB2        &mkp MB3   &kp LS(LG(RIGHT))
 &trans     &trans      &kp LC(C)     &kp LC(V)       &kp LC(LA(V))   &lt 6 PRINTSCREEN      &trans         &trans     &kp ESC       &kp LA(UP)      &none      &kp LG(UP)
 &kp LCTRL  &kp LSHIFT  &kp LEFT_WIN  &lt 3 LEFT_GUI  &lt 1 LEFT_ALT  &lt 2 DELETE           &kp BACKSPACE  &kp SPACE                                           &none
             >;
