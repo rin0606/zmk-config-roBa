@@ -83,8 +83,8 @@
         ARROW {
             bindings = <
 &none   &none   &none   &none      &none                             &none   &none     &kp F4    &none      &none
-&none   &none   &none   &none      &none         &none       &none   &none   &kp LEFT  &kp UP    &kp RIGHT  &trans
-&none   &none   &none   &kp LCTRL  &kp LEFT_WIN  &none       &none   &none   &none     &kp DOWN  &none      &none
+&none   &none   &none   &none      &none         &none       &none   &none   &none     &kp UP    &none      &trans
+&none   &none   &none   &kp LCTRL  &kp LEFT_WIN  &none       &none   &none   &kp LEFT  &kp DOWN  &kp RIGHT  &none
 &trans  &trans  &trans  &trans     &trans        &trans      &trans  &trans                                 &none
             >;
         };
