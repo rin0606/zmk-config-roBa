@@ -82,10 +82,10 @@
 
         ARROW {
             bindings = <
-&none   &none   &kp SLASH  &kp ASTERISK    &kp PERIOD                      &kp F5  &none     &kp UP    &kp F4     &none
-&none   &none   &kp LCTRL  &kp LEFT_SHIFT  &kp F2      &none       &none   &none   &kp LEFT  &kp DOWN  &kp RIGHT  &none
-&trans  &trans  &trans     &trans          &none       &none       &none   &none   &kp HOME  &none     &none      &none
-&trans  &trans  &trans     &trans          &trans      &trans      &trans  &trans                                 &none
+&none   &none   &kp SLASH  &kp ASTERISK    &kp PERIOD                      &kp F5  &none     &kp UP    &kp F4     &kp LG(KP_NUMBER_1)
+&none   &none   &kp LCTRL  &kp LEFT_SHIFT  &kp F2      &none       &none   &none   &kp LEFT  &kp DOWN  &kp RIGHT  &kp LG(KP_NUMBER_2)
+&trans  &trans  &trans     &trans          &none       &none       &none   &none   &kp HOME  &none     &none      &kp LG(KP_NUMBER_3)
+&trans  &trans  &trans     &trans          &trans      &trans      &trans  &trans                                 &kp LG(KP_NUMBER_4)
             >;
         };
 
