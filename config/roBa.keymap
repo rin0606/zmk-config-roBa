@@ -76,7 +76,7 @@
 &kp INT3     &kp AMPERSAND  &none                 &kp LEFT_BRACKET       &kp RIGHT_BRACKET                             &kp ASTRK        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH
 &kp DOLLAR   &kp CARET      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON          &none          &none       &kp PLUS         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
 &kp PERCENT  &none          &kp LESS_THAN         &kp GREATER_THAN       &kp SEMICOLON      &kp EQUAL      &none       &none            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none
-&trans       &trans         &trans                &trans                 &trans             &trans         &kp PERIOD  &kp KP_NUMBER_0                                                     &none
+&none        &none          &none                 &trans                 &trans             &trans         &kp PERIOD  &kp KP_NUMBER_0                                                     &none
             >;
         };
 
@@ -85,7 +85,7 @@
 &none   &none   &kp SLASH  &kp ASTERISK    &kp PERIOD                      &kp F5  &none     &kp UP    &kp F4     &kp LG(KP_NUMBER_1)
 &none   &none   &kp LCTRL  &kp LEFT_SHIFT  &kp F2      &none       &none   &none   &kp LEFT  &kp DOWN  &kp RIGHT  &kp LG(KP_NUMBER_2)
 &trans  &trans  &trans     &trans          &none       &none       &none   &none   &kp HOME  &none     &none      &kp LG(KP_NUMBER_3)
-&trans  &trans  &trans     &trans          &trans      &trans      &trans  &trans                                 &kp LG(KP_NUMBER_4)
+&none   &none   &none      &trans          &trans      &trans      &trans  &trans                                 &kp LG(KP_NUMBER_4)
             >;
         };
 
