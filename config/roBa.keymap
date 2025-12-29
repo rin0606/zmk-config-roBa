@@ -54,8 +54,8 @@
         default_layer {
             bindings = <
 &kp LS(LG(LEFT))  &none      &kp LC(S)  &kp ENTER       &kp LC(F4)                                            &kp LG(TAB)  &none           &kp BACKSPACE  &kp LA(UP)  &kp LS(LG(RIGHT))
-&kp LC(Y)         &kp TAB    &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp KP_NUMLOCK         &none            &none        &msc SCRL_UP    &mkp MB1       &mkp MB3    &none
-&kp LC(Z)         &kp LC(X)  &kp LC(C)  &kp LC(V)       &kp LEFT_WIN  &lt 6 PRINTSCREEN      &none            &kp ESC      &msc SCRL_DOWN  &mkp MB2       &none       &kp LG(UP)
+&kp LC(Y)         &kp TAB    &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp KP_NUMLOCK         &none            &kp ESC      &msc SCRL_UP    &mkp MB1       &mkp MB3    &none
+&kp LC(Z)         &kp LC(X)  &kp LC(C)  &kp LC(V)       &kp LEFT_WIN  &lt 6 PRINTSCREEN      &none            &none        &msc SCRL_DOWN  &mkp MB2       &none       &kp LG(UP)
 &none             &none      &none      &kp DELETE      &lt 1 F7      &lt 2 F8               &mt LCTRL SPACE  &lt 3 ENTER                                             &kp LA(F4)
             >;
 
@@ -82,10 +82,10 @@
 
         ARROW {
             bindings = <
-&none   &none   &kp SLASH  &kp ASTERISK    &kp PERIOD                      &kp F5  &none     &kp UP    &kp F4     &kp LG(N1)
-&none   &none   &kp LCTRL  &kp LEFT_SHIFT  &kp F2      &none       &none   &none   &kp LEFT  &kp DOWN  &kp RIGHT  &kp LG(N2)
-&trans  &trans  &trans     &trans          &none       &none       &none   &none   &kp HOME  &none     &none      &kp LG(N3)
-&none   &none   &none      &trans          &trans      &trans      &trans  &trans                                 &kp LG(N4)
+&none   &none   &kp SLASH  &kp ASTERISK    &kp F2                                &kp F5  &none     &kp UP    &kp F4     &kp LG(N1)
+&none   &none   &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &none           &none   &none   &kp LEFT  &kp DOWN  &kp RIGHT  &kp LG(N2)
+&trans  &trans  &trans     &trans          &none         &none           &none   &none   &kp HOME  &none     &none      &kp LG(N3)
+&none   &none   &none      &trans          &trans        &kp PERIOD      &trans  &trans                                 &kp LG(N4)
             >;
         };
 
