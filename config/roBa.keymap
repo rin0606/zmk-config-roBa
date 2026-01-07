@@ -55,7 +55,7 @@
             bindings = <
 &kp LS(LG(LEFT))  &none      &kp LC(S)  &kp ENTER       &kp LC(F4)                                           &kp LG(TAB)  &none           &kp BACKSPACE  &kp LA(UP)  &kp LS(LG(RIGHT))
 &kp LC(Y)         &kp TAB    &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &kp KP_NUMLOCK         &none           &none        &msc SCRL_UP    &mkp MB1       &mkp MB3    &none
-&kp LC(Z)         &kp LC(X)  &kp LC(C)  &kp LC(V)       &kp LEFT_WIN  &lt 6 PRINTSCREEN      &none           &kp ESC      &msc SCRL_DOWN  &mkp MB2       &none       &kp LG(UP)
+&kp LC(Z)         &kp LC(X)  &kp LC(C)  &kp LC(V)       &kp LEFT_WIN  &lt 6 PRINTSCREEN      &lt 7 F9        &kp ESC      &msc SCRL_DOWN  &mkp MB2       &none       &kp LG(UP)
 &none             &none      &none      &kp DELETE      &lt 1 F7      &lt 2 F8               &mt LCTRL CAPS  &lt 3 ENTER                                             &kp LA(F4)
             >;
 
@@ -65,9 +65,9 @@
         FUNCTION {
             bindings = <
 &kp Q  &kp W           &kp E        &kp R             &kp T                                          &kp Y           &kp U             &kp I        &kp O       &kp P
-&kp A  &kp S           &mt LCTRL D  &mt LEFT_SHIFT H  &mt LEFT_ALT G  &trans        &kp QUESTION     &mt LEFT_ALT J  &mt LEFT_SHIFT F  &mt LCTRL K  &kp L       &kp MINUS
+&kp A  &kp S           &mt LCTRL D  &mt LEFT_SHIFT H  &mt LEFT_ALT G  &none         &kp QUESTION     &mt LEFT_ALT J  &mt LEFT_SHIFT F  &mt LCTRL K  &kp L       &kp MINUS
 &kp Z  &kp X           &kp C        &kp V             &mt LEFT_WIN B  &kp HASH      &kp EXCLAMATION  &kp M           &kp N             &kp COMMA    &kp PERIOD  &kp TILDE
-&none  &kp INT_HENKAN  &trans       &trans            &trans          &trans        &kp SPACE        &trans                                                     &kp AT_SIGN
+&none  &kp INT_HENKAN  &none        &none             &none           &none         &kp SPACE        &none                                                      &kp AT_SIGN
             >;
         };
 
@@ -76,16 +76,16 @@
 &kp INT3     &kp AMPERSAND   &none                 &kp LEFT_BRACKET       &kp RIGHT_BRACKET                             &kp ASTRK        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH
 &kp DOLLAR   &kp CARET       &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp COLON          &none          &none       &kp PLUS         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
 &kp PERCENT  &kp UNDERSCORE  &kp LESS_THAN         &kp GREATER_THAN       &kp SEMICOLON      &kp EQUAL      &none       &none            &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &none
-&none        &none           &none                 &trans                 &trans             &trans         &kp PERIOD  &kp KP_NUMBER_0                                                     &none
+&none        &none           &none                 &none                  &none              &none          &kp PERIOD  &kp KP_NUMBER_0                                                     &none
             >;
         };
 
         ARROW {
             bindings = <
-&kp LG(NUMBER_5)  &none   &kp SLASH  &kp ASTERISK    &kp F2                            &kp F5  &none     &kp UP    &kp F4     &kp LG(N1)
-&kp LG(NUMBER_6)  &none   &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &none       &none   &none   &kp LEFT  &kp DOWN  &kp RIGHT  &kp LG(N2)
-&kp LG(NUMBER_7)  &trans  &trans     &trans          &kp LEFT_WIN  &none       &none   &none   &kp HOME  &none     &kp END    &kp LG(N3)
-&kp LG(NUMBER_8)  &none   &none      &trans          &trans        &trans      &trans  &trans                                 &kp LG(N4)
+&kp LG(NUMBER_5)  &none   &kp SLASH  &kp ASTERISK    &kp F2                          &kp F5  &none     &kp UP    &kp F4     &kp LG(N1)
+&kp LG(NUMBER_6)  &none   &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT  &none      &none  &none   &kp LEFT  &kp DOWN  &kp RIGHT  &kp LG(N2)
+&kp LG(NUMBER_7)  &trans  &trans     &trans          &kp LEFT_WIN  &none      &none  &none   &kp HOME  &none     &kp END    &kp LG(N3)
+&kp LG(NUMBER_8)  &none   &none      &none           &none         &none      &none  &none                                  &kp LG(N4)
             >;
         };
 
@@ -113,6 +113,33 @@
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &trans  &trans      &bootloader  &trans        &trans        &trans        &trans        &bt BT_CLR
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans                                                  &bt BT_CLR_ALL
+            >;
+        };
+
+        layer_7 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &to 8
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &trans
+            >;
+        };
+
+        layer_8 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                         &kp Y        &kp U  &kp I  &kp O  &kp P
+&trans  &trans  &trans  &trans  &trans  &trans      &to 0      &kp J        &kp F  &kp K  &kp L  &kp MINUS
+&trans  &trans  &trans  &trans  &trans  &trans      &kp CAPS   &kp M        &kp N  &none  &none  &none
+&trans  &trans  &trans  &trans  &trans  &trans      &kp SPACE  &lt 9 ENTER                       &none
+            >;
+        };
+
+        layer_9 {
+            bindings = <
+&trans  &trans  &trans  &trans  &trans                     &kp Q  &kp W  &kp E  &kp R  &kp T
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &kp A  &kp S  &kp D  &kp H  &kp G
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &kp Z  &kp X  &kp C  &kp V  &kp B
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none                       &none
             >;
         };
     };
