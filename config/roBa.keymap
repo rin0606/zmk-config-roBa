@@ -62,12 +62,12 @@
             sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
-        FUNCTION {
+        letter {
             bindings = <
-&kp Q  &kp W           &kp E        &kp R             &kp T                                          &kp Y           &kp U             &kp I        &kp O       &kp P
-&kp A  &kp S           &mt LCTRL D  &mt LEFT_SHIFT H  &mt LEFT_ALT G  &none         &kp QUESTION     &mt LEFT_ALT J  &mt LEFT_SHIFT F  &mt LCTRL K  &kp L       &kp MINUS
-&kp Z  &kp X           &kp C        &kp V             &mt LEFT_WIN B  &kp HASH      &kp EXCLAMATION  &kp M           &kp N             &kp COMMA    &kp PERIOD  &kp TILDE
-&none  &kp INT_HENKAN  &none        &none             &none           &none         &kp SPACE        &none                                                      &kp AT_SIGN
+&kp Q           &kp W   &kp E        &kp R             &kp T                                         &kp Y           &kp U             &kp I        &kp O       &kp P
+&kp A           &kp S   &mt LCTRL D  &mt LEFT_SHIFT H  &mt LEFT_ALT G  &none              &to 0      &mt LEFT_ALT J  &mt LEFT_SHIFT F  &mt LCTRL K  &kp L       &kp MINUS
+&kp Z           &kp X   &kp C        &kp V             &mt LEFT_WIN B  &none              &none      &kp M           &kp N             &kp COMMA    &kp PERIOD  &kp TILDE
+&kp INT_HENKAN  &kp F7  &kp F8       &kp CAPS          &kp F2          &kp BACKSPACE      &kp SPACE  &lt 8 ENTER                                                &none
             >;
         };
 
@@ -116,7 +116,7 @@
             >;
         };
 
-        layer_7 {
+        layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &to 8
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
@@ -125,12 +125,12 @@
             >;
         };
 
-        layer_8 {
+        symbol {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                         &kp Y        &kp U  &kp I  &kp O  &kp P
-&trans  &trans  &trans  &trans  &trans  &trans      &to 0      &kp J        &kp F  &kp K  &kp L  &kp MINUS
-&trans  &trans  &trans  &trans  &trans  &trans      &kp CAPS   &kp M        &kp N  &none  &none  &none
-&trans  &trans  &trans  &trans  &trans  &trans      &kp SPACE  &lt 9 ENTER                       &none
+&trans  &trans  &trans  &trans  &trans                     &kp QUESTION     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH     &kp AMPERSAND
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp UNDERSCORE
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &kp AT_SIGN      &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &none                                                                      &none
             >;
         };
 
