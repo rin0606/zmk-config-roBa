@@ -73,10 +73,10 @@
 
         NUM {
             bindings = <
-&none  &none  &none                 &kp LEFT_BRACKET       &kp RIGHT_BRACKET                         &kp ASTRK        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH
-&none  &none  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &none              &none      &to 0       &kp PLUS         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
-&none  &none  &kp LESS_THAN         &kp GREATER_THAN       &none              &none      &none       &kp EQUAL        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON
-&none  &none  &none                 &none                  &none              &none      &kp PERIOD  &kp KP_NUMBER_0                                                     &kp SEMICOLON
+&none  &none  &none  &none  &none                         &kp ASTRK        &kp KP_NUMBER_7  &kp KP_NUMBER_8  &kp KP_NUMBER_9  &kp SLASH
+&none  &none  &none  &none  &none  &none      &to 0       &kp PLUS         &kp KP_NUMBER_4  &kp KP_NUMBER_5  &kp KP_NUMBER_6  &kp MINUS
+&none  &none  &none  &none  &none  &none      &none       &kp EQUAL        &kp KP_NUMBER_1  &kp KP_NUMBER_2  &kp KP_NUMBER_3  &kp COLON
+&none  &none  &none  &none  &none  &none      &kp PERIOD  &kp KP_NUMBER_0                                                     &kp SEMICOLON
             >;
         };
 
@@ -127,9 +127,9 @@
 
         symbol {
             bindings = <
-&trans  &trans  &trans  &trans  &trans                     &kp QUESTION     &kp LEFT_BRACE        &kp RIGHT_BRACE        &kp HASH     &kp AMPERSAND
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp UNDERSCORE
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &kp AT_SIGN      &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
+&trans  &trans  &trans  &trans  &trans                     &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp UNDERSCORE
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
+&trans  &trans  &trans  &trans  &trans  &trans      &none  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
 &trans  &trans  &trans  &trans  &trans  &trans      &none  &none                                                                      &none
             >;
         };
