@@ -58,8 +58,6 @@
 &kp LC(Z)         &kp LC(X)       &kp LC(C)  &kp LC(V)     &kp LEFT_WIN  &lt 6 PRINTSCREEN      &lt 7 F9                 &kp ESC      &msc SCRL_DOWN  &mkp MB2       &none       &kp LG(UP)
 &none             &none           &kp F5     &lt 8 DELETE  &mo 1         &mo 2                  &mt LCTRL K_APPLICATION  &lt 3 ENTER                                             &kp LA(F4)
             >;
-
-            sensor-bindings = <&inc_dec_kp K_SCROLL_UP K_SCROLL_DOWN>;
         };
 
         letter {
@@ -128,7 +126,7 @@
         symbol {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                     &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp UNDERSCORE
-&trans  &trans  &trans  &trans  &trans  &trans      &none  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
+&trans  &trans  &trans  &trans  &trans  &trans      &to 0  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
 &trans  &trans  &trans  &trans  &trans  &trans      &none  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
 &trans  &trans  &trans  &trans  &trans  &trans      &none  &none                                                                      &none
             >;
