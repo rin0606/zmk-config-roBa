@@ -119,7 +119,7 @@
         layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &to 8   &to 1   &to 2   &to 3
-&trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &none
+&trans  &trans  &trans  &trans  &trans  &trans      &to 0   &trans  &trans  &trans  &trans  &none
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans                          &to 5
             >;
