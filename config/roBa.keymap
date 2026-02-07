@@ -53,7 +53,7 @@
 
         default_layer {
             bindings = <
-&kp LS(LG(LEFT))  &none      &kp LC(S)  &kp ENTER     &kp LC(F4)                                                    &kp LG(TAB)  &none           &kp BACKSPACE  &kp LA(UP)  &kp LS(LG(RIGHT))
+&kp LS(LG(LEFT))  &none      &kp LC(S)  &kp ENTER     &kp LC(F4)                                                    &kp LG(TAB)  &kp SPACE       &kp BACKSPACE  &kp LA(UP)  &kp LS(LG(RIGHT))
 &kp LC(Y)         &kp LCTRL  &kp TAB    &kp LSHIFT    &kp LEFT_ALT  &kp KP_NUMLOCK         &none                    &none        &msc SCRL_UP    &mkp MB1       &mkp MB3    &kp LG(DOWN)
 &kp LC(Z)         &kp LC(X)  &kp LC(C)  &kp LC(V)     &kp LEFT_WIN  &lt 6 PRINTSCREEN      &lt 7 F9                 &kp ESC      &msc SCRL_DOWN  &mkp MB2       &none       &kp LG(UP)
 &none             &none      &kp F5     &lt 8 DELETE  &mo 1         &mo 2                  &mt LCTRL K_APPLICATION  &lt 3 ENTER                                             &kp LA(F4)
