@@ -127,10 +127,10 @@
 
         symbol {
             bindings = <
-&none   &none   &kp LS(SPACE)  &none      &none                        &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp UNDERSCORE
-&trans  &none   &kp LC(I)      &kp LA(I)  &kp LA(J)  &none      &to 0  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
-&trans  &trans  &trans         &kp B      &none      &none      &none  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
-&none   &none   &none          &trans     &none      &none      &none  &none                                                                      &none
+&kp LC(NUMBER_1)  &kp LC(NUMBER_4)  &kp LS(SPACE)  &none      &none                        &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp UNDERSCORE
+&kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(I)      &kp LA(I)  &kp LA(J)  &none      &to 0  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
+&trans            &trans            &trans         &kp B      &none      &none      &none  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
+&none             &none             &none          &trans     &none      &none      &none  &none                                                                      &none
             >;
         };
     };
