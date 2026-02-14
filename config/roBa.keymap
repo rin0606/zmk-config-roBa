@@ -65,9 +65,9 @@
         letter {
             bindings = <
 &kp Q  &kp W  &kp E  &kp R      &kp T                                         &kp Y        &kp U  &kp I      &kp O       &kp P
-&kp A  &kp S  &kp D  &kp H      &kp G           &none              &to 0      &kp F        &kp J  &kp K      &kp L       &kp MINUS
-&kp Z  &kp X  &kp C  &kp B      &kp V           &none              &kp CAPS   &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp TILDE
-&none  &to 2  &none  &kp LCTRL  &kp LEFT_SHIFT  &kp BACKSPACE      &kp SPACE  &lt 6 ENTER                                &kp DELETE
+&kp A  &kp S  &kp D  &kp H      &kp G           &none          &to 0          &kp F        &kp J  &kp K      &kp L       &kp MINUS
+&kp Z  &kp X  &kp C  &kp B      &kp V           &none          &kp CAPS       &kp N        &kp M  &kp COMMA  &kp PERIOD  &kp TILDE
+&none  &to 2  &none  &kp LCTRL  &kp LEFT_SHIFT  &kp SPACE      &kp BACKSPACE  &lt 6 ENTER                                &kp DELETE
             >;
         };
 
