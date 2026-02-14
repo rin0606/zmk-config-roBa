@@ -55,7 +55,7 @@
             bindings = <
 &none      &kp LS(LC(TAB))  &kp LC(S)  &kp ENTER  &kp LC(F4)                                                      &kp LG(TAB)     &mkp LCLK  &kp UP_ARROW  &kp F4     &kp LC(PAGE_UP)
 &kp LC(Y)  &kp LS(TAB)      &kp TAB    &none      &none           &kp KP_NUMLOCK         &none                    &msc SCRL_UP    &kp LEFT   &kp DOWN      &kp RIGHT  &kp LC(PAGE_DOWN)
-&kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)  &kp LEFT_WIN    &lt 5 PRINTSCREEN      &kp CAPS                 &msc SCRL_DOWN  &kp HOME   &kp F2        &kp END    &none
+&kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)  &kp LEFT_WIN    &lt 5 PRINTSCREEN      &kp CAPS                 &msc SCRL_DOWN  &kp HOME   &kp F2        &kp END    &kp ESC
 &none      &to 2            &to 1      &kp LCTRL  &kp LEFT_SHIFT  &kp LEFT_ALT           &mt LCTRL K_APPLICATION  &lt 6 ENTER                                         &kp DELETE
             >;
 
