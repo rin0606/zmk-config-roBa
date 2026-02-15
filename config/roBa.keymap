@@ -109,9 +109,9 @@
 
         symbol {
             bindings = <
-&kp LC(NUMBER_1)  &kp LC(NUMBER_4)  &kp LS(SPACE)  &kp SPACE  &none                         &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp UNDERSCORE
-&kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp LC(I)      &kp LA(I)  &kp LA(J)  &none       &to 0  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
-&trans            &trans            &trans         &kp B      &none      &none       &none  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
+&kp LC(NUMBER_1)  &kp LC(NUMBER_4)  &kp LS(SPACE)  &kp LC(X)  &kp LC(I)                     &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp UNDERSCORE
+&kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &none          &none      &none      &none       &to 0  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
+&none             &none             &kp LA(I)      &kp LA(J)  &kp B      &none       &none  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
 &kp F7            &kp INT_HENKAN    &kp F8         &none      &kp F5     &kp F9      &none  &none                                                                      &none
             >;
         };
