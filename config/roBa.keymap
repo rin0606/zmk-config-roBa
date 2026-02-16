@@ -109,10 +109,10 @@
 
         symbol {
             bindings = <
-&kp LC(NUMBER_1)  &kp LC(NUMBER_4)  &kp LS(SPACE)  &kp LC(X)  &kp LC(I)                    &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp UNDERSCORE
-&kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp SPACE      &kp LC(C)  &none      &none      &to 0  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
-&none             &none             &kp LA(I)      &kp LA(J)  &kp B      &none      &none  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
-&none             &none             &none          &none      &none      &none      &none  &none                                                                      &none
+&kp LC(NUMBER_1)  &kp LC(NUMBER_4)  &kp LS(SPACE)  &kp LC(X)  &kp LC(I)                     &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp UNDERSCORE
+&kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp SPACE      &kp LC(C)  &none      &none      &to 0   &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
+&none             &none             &kp LA(I)      &kp LA(J)  &kp B      &none      &kp F5  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
+&none             &none             &none          &none      &none      &none      &none   &none                                                                      &none
             >;
         };
 
