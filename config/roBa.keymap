@@ -98,7 +98,7 @@
             >;
         };
 
-        layer_6 {
+        Bluetooth {
             bindings = <
 &trans  &trans        &trans        &trans        &trans                           &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4
 &trans  &trans        &trans        &trans        &trans  &trans      &trans       &trans        &trans        &trans        &trans        &trans
@@ -110,13 +110,13 @@
         symbol {
             bindings = <
 &kp LC(NUMBER_1)  &kp LC(NUMBER_4)  &kp LS(SPACE)  &kp LC(X)  &kp LC(I)                    &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp UNDERSCORE
-&kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp SPACE      &kp LC(C)  &none      &none      &none  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
+&kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp SPACE      &kp LC(C)  &none      &none      &to 0  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
 &none             &none             &kp LA(I)      &kp LA(J)  &kp B      &none      &none  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
 &none             &none             &none          &none      &none      &none      &none  &none                                                                      &none
             >;
         };
 
-        layer_7 {
+        layer {
             bindings = <
 &none  &none  &none  &none  &none                    &to 0  &to 1  &to 2  &to 8  &to 6
 &none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none
@@ -125,12 +125,12 @@
             >;
         };
 
-        layer_8 {
+        ARROW {
             bindings = <
-&none  &none  &none  &none  &none                    &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none      &none  &none  &none  &none  &none  &none
-&none  &none  &none  &none  &none  &none      &none  &none                       &none
+&none  &none      &kp LC(PAGE_DOWN)  &kp LC(PG_UP)   &kp PERIOD                      &kp LS(LA(UP_ARROW))  &kp F2    &kp UP_ARROW  &kp F4     &kp LG(NUMBER_1)
+&none  &kp LCTRL  &kp TAB            &kp LEFT_SHIFT  &kp LEFT_ALT  &none      &to 0  &kp LS(LA(DOWN))      &kp LEFT  &kp DOWN      &kp RIGHT  &kp LG(NUMBER_2)
+&none  &none      &none              &none           &kp LEFT_GUI  &none      &none  &none                 &kp HOME  &none         &kp END    &kp LG(NUMBER_3)
+&none  &none      &none              &none           &none         &none      &none  &none                                                    &none
             >;
         };
     };
