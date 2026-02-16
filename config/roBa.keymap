@@ -53,10 +53,10 @@
 
         default_layer {
             bindings = <
-&kp LC(D)  &kp LS(LC(TAB))  &kp LC(S)  &kp ENTER       &kp LC(F4)                                                    &kp LG(TAB)      &kp LA(LEFT)    &kp BACKSPACE  &kp LA(UP_ARROW)  &kp LC(P)
-&kp LC(Y)  &kp LCTRL        &kp TAB    &kp LEFT_SHIFT  &kp LEFT_ALT  &kp KP_NUMLOCK         &msc SCRL_LEFT           &msc SCRL_RIGHT  &msc SCRL_UP    &mkp MB1       &mkp MB3          &kp LS(LG(RIGHT))
-&kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)       &kp LEFT_WIN  &lt 5 PRINTSCREEN      &lt 7 F9                 &kp ESCAPE       &msc SCRL_DOWN  &mkp MB2       &none             &kp LS(LG(LEFT))
-&none      &none            &kp DEL    &to 6           &to 1         &to 2                  &mt LCTRL K_APPLICATION  &lt 8 ENTER                                                       &kp LG(F4)
+&kp LC(D)  &kp LS(LC(TAB))  &kp LC(S)  &kp ENTER         &kp LC(F4)                                                    &kp LG(TAB)      &kp LA(LEFT)    &kp BACKSPACE  &kp LA(UP_ARROW)  &kp LC(P)
+&kp LC(Y)  &kp LCTRL        &kp TAB    &kp LEFT_SHIFT    &kp LEFT_ALT  &kp KP_NUMLOCK         &msc SCRL_LEFT           &msc SCRL_RIGHT  &msc SCRL_UP    &mkp MB1       &mkp MB3          &kp LS(LG(RIGHT))
+&kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)         &kp LEFT_WIN  &lt 5 PRINTSCREEN      &lt 7 F9                 &kp ESCAPE       &msc SCRL_DOWN  &mkp MB2       &none             &kp LS(LG(LEFT))
+&none      &none            &kp DEL    &lt 6 INT_HENKAN  &lt 1 F7      &lt 2 F8               &mt LCTRL K_APPLICATION  &lt 8 ENTER                                                       &kp LG(F4)
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
@@ -64,10 +64,10 @@
 
         letter {
             bindings = <
-&kp Q           &kp W   &kp E   &kp R     &kp T                                       &kp Y                 &kp U  &kp I      &kp O       &kp P
-&kp A           &kp S   &kp D   &kp H     &kp G   &none              &to 0            &kp F                 &kp J  &kp K      &kp L       &kp MINUS
-&kp Z           &kp X   &kp C   &kp B     &kp V   &none              &none            &kp N                 &kp M  &kp COMMA  &kp PERIOD  &kp TILDE
-&kp INT_HENKAN  &kp F7  &kp F8  &kp CAPS  &kp F2  &kp BACKSPACE      &mt LCTRL SPACE  &mt LEFT_SHIFT ENTER                                &kp DELETE
+&kp Q  &kp W  &kp E  &kp R     &kp T                                       &kp Y                 &kp U  &kp I      &kp O       &kp P
+&kp A  &kp S  &kp D  &kp H     &kp G   &none              &to 0            &kp F                 &kp J  &kp K      &kp L       &kp MINUS
+&kp Z  &kp X  &kp C  &kp B     &kp V   &none              &none            &kp N                 &kp M  &kp COMMA  &kp PERIOD  &kp TILDE
+&none  &none  &none  &kp CAPS  &kp F2  &kp BACKSPACE      &mt LCTRL SPACE  &mt LEFT_SHIFT ENTER                                &kp DELETE
             >;
         };
 
