@@ -54,9 +54,9 @@
         default_layer {
             bindings = <
 &kp LC(D)  &kp LS(LC(TAB))  &kp LC(S)  &kp ENTER         &kp LC(F4)                                                    &kp LG(TAB)      &kp LA(LEFT)    &kp BACKSPACE  &kp LA(UP_ARROW)  &kp LC(P)
-&kp LC(Y)  &kp LCTRL        &kp TAB    &kp LEFT_SHIFT    &kp LEFT_ALT  &kp KP_NUMLOCK         &msc SCRL_LEFT           &msc SCRL_RIGHT  &msc SCRL_UP    &mkp MB1       &mkp MB3          &kp LS(LG(RIGHT))
-&kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)         &kp LEFT_WIN  &lt 5 PRINTSCREEN      &lt 7 F9                 &kp ESCAPE       &msc SCRL_DOWN  &mkp MB2       &none             &none
-&none      &none            &kp DEL    &lt 6 INT_HENKAN  &lt 1 F7      &lt 2 F8               &mt LCTRL K_APPLICATION  &lt 8 ENTER                                                       &kp LA(F4)
+&kp LC(Y)  &kp LCTRL        &kp TAB    &kp LEFT_SHIFT    &kp LEFT_ALT  &kp KP_NUMLOCK         &msc SCRL_LEFT           &msc SCRL_RIGHT  &msc SCRL_UP    &mkp MB1       &mkp MB3          &kp LC(F)
+&kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)         &kp LEFT_WIN  &lt 5 PRINTSCREEN      &lt 7 F9                 &kp ESCAPE       &msc SCRL_DOWN  &mkp MB2       &none             &kp LS(LG(LEFT))
+&kp F7     &kp F8           &kp DEL    &lt 6 INT_HENKAN  &lt 1 RCTRL   &lt 2 F2               &mt LCTRL K_APPLICATION  &lt 8 ENTER                                                       &kp LA(F4)
             >;
 
             sensor-bindings = <&inc_dec_kp C_AC_SCROLL_UP C_AC_SCROLL_DOWN>;
@@ -109,10 +109,10 @@
 
         symbol {
             bindings = <
-&kp LC(NUMBER_1)  &kp LC(NUMBER_4)  &kp LS(SPACE)  &kp LC(X)  &kp LC(I)                    &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp UNDERSCORE
-&kp LC(NUMBER_2)  &kp LC(NUMBER_3)  &kp SPACE      &kp LC(C)  &none      &none      &to 0  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
-&none             &none             &kp LA(I)      &kp LA(J)  &kp B      &none      &none  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
-&none             &none             &none          &none      &none      &none      &none  &none                                                                      &none
+&kp LC(NUMBER_1)  &kp LC(NUMBER_4)      &kp LS(SPACE)  &kp SPACE  &kp LC(I)                    &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp UNDERSCORE
+&kp LC(NUMBER_2)  &kp LS(LA(UP_ARROW))  &kp LA(I)      &kp LA(J)  &kp B      &none      &to 0  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
+&kp LC(NUMBER_3)  &kp LS(LA(DOWN))      &none          &none      &none      &none      &none  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
+&none             &none                 &none          &none      &none      &none      &none  &none                                                                      &none
             >;
         };
 
@@ -127,10 +127,10 @@
 
         ARROW {
             bindings = <
-&none  &none      &kp LC(PAGE_UP)  &kp LC(PAGE_DOWN)  &kp PERIOD                      &kp LS(LA(UP_ARROW))  &kp F2    &kp UP_ARROW  &kp F4     &kp LG(NUMBER_1)
-&none  &kp LCTRL  &kp TAB          &kp LEFT_SHIFT     &kp LEFT_ALT  &none      &to 0  &kp LS(LA(DOWN))      &kp LEFT  &kp DOWN      &kp RIGHT  &kp LG(NUMBER_2)
-&none  &none      &none            &none              &kp LEFT_GUI  &none      &none  &none                 &kp HOME  &kp F5        &kp END    &kp LG(NUMBER_3)
-&none  &none      &none            &none              &none         &none      &none  &none                                                    &none
+&none  &none      &kp SLASH  &kp ASTERISK    &kp PERIOD                      &kp LC(PAGE_DOWN)  &kp F2    &kp UP_ARROW  &kp F4     &kp LG(NUMBER_1)
+&none  &kp LCTRL  &kp TAB    &kp LEFT_SHIFT  &kp LEFT_ALT  &none      &to 0  &kp LC(PAGE_UP)    &kp LEFT  &kp DOWN      &kp RIGHT  &kp LG(NUMBER_2)
+&none  &none      &none      &none           &kp LEFT_GUI  &none      &none  &none              &kp HOME  &kp F5        &kp END    &kp LG(NUMBER_3)
+&none  &none      &none      &none           &none         &none      &none  &none                                                 &none
             >;
         };
     };
