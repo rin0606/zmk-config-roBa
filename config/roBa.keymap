@@ -64,10 +64,10 @@
 
         letter {
             bindings = <
-&kp Q  &kp W        &kp D  &kp L             &kp J                                         &kp Y           &kp G             &kp T      &kp R        &kp P
-&kp A  &mt LCTRL O  &kp E  &mt LEFT_SHIFT U  &mt LEFT_ALT I  &none              &to 0      &mt LEFT_ALT H  &mt LEFT_SHIFT S  &kp K      &mt LCTRL N  &kp MINUS
-&kp Z  &kp X        &kp C  &kp V             &kp F           &none              &none      &kp B           &kp M             &kp COMMA  &kp PERIOD   &kp TILDE
-&none  &none        &none  &kp CAPS          &kp F2          &kp BACKSPACE      &kp SPACE  &kp ENTER                                                 &kp DELETE
+&kp Q  &kp W        &kp D  &kp L             &kp J                                                    &kp Y           &kp G             &kp T      &kp R        &kp P
+&kp A  &mt LCTRL O  &kp E  &mt LEFT_SHIFT U  &mt LEFT_ALT I  &none              &to 0                 &mt LEFT_ALT H  &mt LEFT_SHIFT S  &kp K      &mt LCTRL N  &kp MINUS
+&kp Z  &kp X        &kp C  &kp V             &kp F           &none              &none                 &kp B           &kp M             &kp COMMA  &kp PERIOD   &kp TILDE
+&none  &none        &none  &kp CAPS          &kp F2          &kp BACKSPACE      &mt LEFT_SHIFT SPACE  &kp ENTER                                                 &kp DELETE
             >;
         };
 
