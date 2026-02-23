@@ -58,8 +58,6 @@
 &kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)         &kp LEFT_WIN  &lt 5 PRINTSCREEN      &lt 7 F9                 &kp ESCAPE       &msc SCRL_DOWN  &mkp MB2       &none             &kp LS(LG(LEFT))
 &kp F7     &kp F8           &kp DEL    &lt 6 INT_HENKAN  &lt 1 RCTRL   &lt 2 F2               &mt LCTRL K_APPLICATION  &lt 8 ENTER                                                       &kp LA(F4)
             >;
-
-            sensor-bindings = <&inc_dec_kp PAGE_DOWN PAGE_UP>;
         };
 
         letter {
