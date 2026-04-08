@@ -53,10 +53,10 @@
 
         default_layer {
             bindings = <
-&kp LC(D)  &kp LS(LC(TAB))  &kp LC(S)  &kp ENTER       &kp LC(F4)                                                &kp LG(TAB)      &kp LA(LEFT)    &none  &kp LA(UP_ARROW)   &kp LC(P)
-&kp LC(Y)  &kp LCTRL        &kp TAB    &kp LEFT_SHIFT  &kp LEFT_ALT  &kp KP_NUMLOCK         &msc SCRL_LEFT       &msc SCRL_RIGHT  &msc SCRL_UP    &none  &none              &kp LC(F)
-&kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)       &kp LEFT_WIN  &lt 5 PRINTSCREEN      &kp F9               &kp ESCAPE       &msc SCRL_DOWN  &none  &kp LS(LG(RIGHT))  &kp LS(LG(LEFT))
-&none      &none            &none      &to 7           &lt 1 F2      &to 2                  &lt 6 K_APPLICATION  &lt 8 ENTER                                                &kp LA(F4)
+&kp LC(D)  &kp LS(LC(TAB))  &kp LC(S)  &kp ENTER       &kp LC(F4)                                                &kp LG(TAB)      &kp LA(LEFT)    &kp BACKSPACE  &kp LA(UP_ARROW)   &kp LC(P)
+&kp LC(Y)  &kp LCTRL        &kp TAB    &kp LEFT_SHIFT  &kp LEFT_ALT  &kp KP_NUMLOCK         &msc SCRL_LEFT       &msc SCRL_RIGHT  &msc SCRL_UP    &none          &none              &kp LC(F)
+&kp LC(Z)  &kp LC(X)        &kp LC(C)  &kp LC(V)       &kp LEFT_WIN  &lt 5 PRINTSCREEN      &kp F9               &kp ESCAPE       &msc SCRL_DOWN  &none          &kp LS(LG(RIGHT))  &kp LS(LG(LEFT))
+&none      &none            &none      &to 7           &lt 1 F2      &to 2                  &lt 6 K_APPLICATION  &lt 8 ENTER                                                        &kp LA(F4)
             >;
         };
 
