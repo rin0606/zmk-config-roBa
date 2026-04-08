@@ -71,10 +71,10 @@
 
         NUM {
             bindings = <
-&kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4   &kp N5                           &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp SLASH
-&kp N6        &kp N7        &kp N8        &kp N9         &kp COLON  &none      &kp COLON  &kp PLUS      &kp N4  &kp N5  &kp N6  &kp MINUS
-&none         &none         &none         &kp SEMICOLON  &none      &none      &kp SEMI   &kp EQUAL     &kp N1  &kp N2  &kp N3  &none
-&none         &none         &none         &none          &none      &none      &kp DOT    &kp N0                                &none
+&none  &none      &none    &none           &none                               &kp ASTERISK  &kp N7  &kp N8  &kp N9  &kp SLASH
+&none  &kp LCTRL  &kp TAB  &kp LEFT_SHIFT  &kp LEFT_ALT  &none      &kp COLON  &kp PLUS      &kp N4  &kp N5  &kp N6  &kp MINUS
+&none  &none      &none    &none           &kp LEFT_GUI  &none      &kp SEMI   &kp EQUAL     &kp N1  &kp N2  &kp N3  &none
+&none  &none      &none    &none           &none         &none      &kp DOT    &kp N0                                &none
             >;
         };
 
@@ -107,10 +107,10 @@
 
         symbol {
             bindings = <
-&kp LC(NUMBER_1)  &kp LC(NUMBER_4)      &kp LS(SPACE)  &kp SPACE  &kp LC(I)                    &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp AT_SIGN  &kp UNDERSCORE
-&kp LC(NUMBER_2)  &kp LS(LA(UP_ARROW))  &kp LA(I)      &kp LA(J)  &kp B      &none      &to 0  &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR   &kp AMPERSAND
-&kp LC(NUMBER_3)  &kp LS(LA(DOWN))      &kp LA(U)      &none      &none      &none      &none  &kp HASH         &kp LESS_THAN         &kp GREATER_THAN       &kp PERCENT  &kp INT_YEN
-&none             &none                 &none          &none      &none      &none      &none  &none                                                                      &none
+&kp LC(NUMBER_1)  &kp LC(NUMBER_4)      &kp LS(SPACE)  &kp SPACE  &kp LC(I)                          &kp QUESTION     &kp LEFT_BRACKET      &kp RIGHT_BRACKET      &kp PERCENT           &kp APOSTROPHE
+&kp LC(NUMBER_2)  &kp LS(LA(UP_ARROW))  &kp LA(I)      &kp LA(J)  &kp B      &none      &kp HASH     &kp EXCLAMATION  &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp DOLLAR            &kp AMPERSAND
+&kp LC(NUMBER_3)  &kp LS(LA(DOWN))      &kp LA(U)      &none      &none      &none      &kp AT_SIGN  &kp UNDERSCORE   &kp LESS_THAN         &kp GREATER_THAN       &kp LS(SINGLE_QUOTE)  &kp INT_YEN
+&none             &none                 &none          &none      &none      &none      &none        &none                                                                               &none
             >;
         };
 
